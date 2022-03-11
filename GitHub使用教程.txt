@@ -1,29 +1,9 @@
-创建密钥私钥
-https://www.runoob.com/git/git-remote-repo.html
+提交更改
+暂存||stage（本地）——提交（本地）——推送（云端）
 
-sourceTree
-使用GitBash创建的SSH来验证
-
-
-————GitHubBash
-尝试使用SSH连接GitHub
-ssh -T git@github.com
-
-创建SSH
-ssh-keygen -t rsa -C "email"
+切换作者
+工具——选项
 
 
-新增一个无后辍名文件config
-内容：
-Host github.com
-User GifHubUserName
-Hostname ssh.github.com
-PreferredAuthentications publickey
-IdentityFile ~/.ssh/id_rsa
-Port 443
 
-再执行一次连接GitHub
 
-修改了一次文件
-
-不撤回的提交
